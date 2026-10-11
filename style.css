@@ -1,42 +1,46 @@
+/*Default style*/
 body{
     background-color: #F5F5DC;
     font-family: Arial, sans-serif;
 }
-
+/*Default style for h1*/
 h1{
     font-size: 2em;
 }
-
+/*Default style for h2*/
 h2{
     font-size: 1.5em;
 }
-
+/*Default style for p*/
 p{
     font-size: 16px;
     line-height: 1.6;
     color: #333333;
 }
-
+/*Reset styles*/
 * {
     box-sizing: border-box;
 }
-
+/*Style for highlighting*/
 .highlight{
     background-color: #fffb26;
 }
-
+/*Style for making text italic*/
 .italic{
     font-style: italic;
 }
+/*Style for adding 🔗 after text*/
 a[target="_blank"]::after {
     content:"🔗";
 }
+/*Hover color change*/
 ol :hover:nth-child(even){
     background-color: blueviolet;
 }
 ol :hover:nth-child(odd){
     background-color: darkorange;
 }
+/*Navigation style*/
 .navigation{
     list-style-type:none;
     display: flex;
@@ -48,12 +52,14 @@ ol :hover:nth-child(odd){
         color: brown;
     }
 }
+/*Styles for padding*/
 .menuList{
     padding: 3rem;
 }
 .text{
     padding: 1%;
 }
+/*Footer style*/
 footer{
 
     a{
@@ -66,12 +72,13 @@ footer{
     }
     text-align: center;
 }
-
+/*Header style*/
 header{
     a[class="logo"]{
         font-size: x-large;
     }
 }
+/*Sections styles*/
 #about{
     background-color: aqua;
 }
@@ -81,6 +88,7 @@ header{
 #contact{
     background-color: magenta;
 }
+/*Style for centering text*/
 .centered{
     text-align: center;
 }

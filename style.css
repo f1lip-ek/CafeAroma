@@ -35,7 +35,7 @@ ol :hover:nth-child(even){
     background-color: blueviolet;
 }
 ol :hover:nth-child(odd){
-    background-color: green;
+    background-color: darkorange;
 }
 .navigation{
     list-style-type:none;
@@ -48,7 +48,12 @@ ol :hover:nth-child(odd){
         color: brown;
     }
 }
-
+.menuList{
+    padding: 3rem;
+}
+.text{
+    padding: 1%;
+}
 footer{
 
     a{
@@ -57,7 +62,7 @@ footer{
         align-items: center;
     }
     a:hover{
-        background-color: magenta;
+        background-color: white;
     }
     text-align: center;
 }
@@ -66,4 +71,16 @@ header{
     a[class="logo"]{
         font-size: x-large;
     }
+}
+#about{
+    background-color: aqua;
+}
+#menu{
+    background-color: darkseagreen;
+}
+#contact{
+    background-color: magenta;
+}
+.centered{
+    text-align: center;
 }

@@ -19,5 +19,37 @@
             </ul>
         </div>
     </header>
+
+    <main>
+        <div>
+            <h1 class="centered">Kontaktni formular</h1>
+            <form>
+                <div class="jmeno">
+                    <label>Vase jmeno:</label>
+                    <input class="contact" type="text" id="jmeno" required placeholder="Karel Novak"/>
+                    <br>
+                </div>
+                <div class="email">
+                    <label>Vas email:</label>
+                    <input class="contact" type="email" id="email" required placeholder="email@domena.cz"/>
+                    <br>
+                </div>
+                <div class="predmet">
+                    <label>Predmet zpravy:</label>
+                    <input class="contact" type="text" id="predmet_zpravy"/>
+                    <br>
+                </div>
+                <div class="zprava">
+                    <label>Zprava:</label>
+                    <textarea class="contact"  id="zprava" name="zprava" rows="4" cols="50" placeholder="Zde napiste zpravu..."></textarea>
+                    <br>
+                </div>
+                <div class="odeslat">
+                    <input class="contact" type="submit" id="odeslat" value="Odeslat formular">
+                </div>
+            </form>
+        </div>
+
+    </main>
 </body>
 </html>

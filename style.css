@@ -92,3 +92,27 @@ header{
 .centered{
     text-align: center;
 }
+.box{
+    margin-bottom: 0.75rem;
+}
+table{
+    border-collapse: collapse;
+    border: 2px solid #000000;
+    margin: 0 auto;
+}
+thead{
+    background-color: magenta;
+}
+th,td{
+    border: 1px solid #000000;
+    padding: 0.75rem;
+    text-align: left;
+}
+
+tbody > tr:nth-child(even){
+    background-color: rgb(237 238 242);
+}
+
+tbody > tr:nth-child(odd){
+    background-color: rgb(74, 108, 245);
+}

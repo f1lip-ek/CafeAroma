@@ -136,3 +136,10 @@ form{
         background-color: violet;
     }
 }
+
+.kaficko{
+    width: 600px;
+    height: auto;
+    margin: 0.25rem;
+    float: left;
+}

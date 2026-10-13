@@ -136,10 +136,15 @@ form{
         background-color: violet;
     }
 }
+.galerie{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
 
 .kaficko{
-    width: 600px;
+    width: 100%;
     height: auto;
     margin: 0.25rem;
-    float: left;
+    image-rendering: optimizeSpeed;
 }

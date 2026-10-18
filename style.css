@@ -141,6 +141,11 @@ form{
         box-sizing: border-box;
         background-color: violet;
     }
+    .odeslat input{
+        font-size: 15px;
+        padding: 10px 20px;
+        cursor: pointer;
+    }
 }
 .galerie{
     display: grid;

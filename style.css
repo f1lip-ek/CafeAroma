@@ -34,10 +34,10 @@ a[target="_blank"]::after {
     content:"🔗";
 }
 /*Hover color change*/
-ol :hover:nth-child(even){
-    background-color: blueviolet;
+ol :nth-child(even){
+    background-color: magenta;
 }
-ol :hover:nth-child(odd){
+ol :nth-child(odd){
     background-color: darkorange;
 }
 /*Navigation style*/

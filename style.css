@@ -146,5 +146,5 @@ form{
     width: 100%;
     height: auto;
     margin: 0.25rem;
-    image-rendering: optimizeSpeed;
+    image-rendering: auto;
 }

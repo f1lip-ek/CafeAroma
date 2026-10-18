@@ -33,7 +33,7 @@ p{
 a[target="_blank"]::after {
     content:"🔗";
 }
-/*Hover color change*/
+/*Color change for list*/
 ol :nth-child(even){
     background-color: magenta;
 }

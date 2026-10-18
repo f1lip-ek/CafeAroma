@@ -47,6 +47,9 @@ ol :hover:nth-child(odd){
     li{
         margin-right: 20px;
     }
+    li:hover{
+        background-color: #ffa95d;
+    }
     a{
         text-decoration: none;
         color: brown;

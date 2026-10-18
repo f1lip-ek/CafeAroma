@@ -125,9 +125,11 @@ tbody > tr:nth-child(odd){
 }
 form{
     display: flex;
+    flex-direction: column;
     grid-template-columns: 150px 1fr;
     gap: 10px;
     align-items: center;
+    margin-bottom: 40px;
     div{
         width: 100%;
         padding: 0.5rem;
@@ -136,7 +138,7 @@ form{
         align-self: center;
     }
     input:focus,textarea:focus{
-        border: 4px ridge red;
+        box-sizing: border-box;
         background-color: violet;
     }
 }
